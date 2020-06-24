@@ -7,7 +7,7 @@ Commands you may need to solve this level
 ls, cd, cat, file, du, find
 ----------------------------------------------------------------------------------------------------------------------------
 1. Connect via ssh: 
-	ssh bandit0@bandit.labs.overthewire.org -p 2220
+    ssh bandit0@bandit.labs.overthewire.org -p 2220
 The password is: bandit0 
 1. List the files in your home directory. (ls command)
 1. Read the readme file that contains the next level’s password. (cat command)

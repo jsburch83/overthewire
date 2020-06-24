@@ -12,7 +12,7 @@ ls, cd, cat, file, du, find
 ```
 1. The password is: `bandit0` 
 1. List the files in your home directory. 
-![list files in home directory] (https://github.com/jsburch83/OverTheWire/blob/master/bandit/images/level0to1.list.files.png?raw=true)
+![list files in home directory](images/level0to1.list.files.png?raw=true)
 1. Read the readme file that contains the next level’s password. (cat command)
 
 1. Password: boJ9jbbUNNfktd78OOpsqOltutMc3MY1

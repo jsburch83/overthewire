@@ -6,10 +6,10 @@ The password for the next level is stored in a file called readme located in the
 Commands you may need to solve this level
 ls, cd, cat, file, du, find
 ----------------------------------------------------------------------------------------------------------------------------
-l. Connect via ssh: 
+1. Connect via ssh: 
 	ssh bandit0@bandit.labs.overthewire.org -p 2220
 The password is: bandit0 
-l. List the files in your home directory. (ls command)
-l. Read the readme file that contains the next level’s password. (cat command)
+1. List the files in your home directory. (ls command)
+1. Read the readme file that contains the next level’s password. (cat command)
 
-l. Password: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+1. Password: boJ9jbbUNNfktd78OOpsqOltutMc3MY1

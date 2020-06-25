@@ -6,6 +6,9 @@ The password for the next level is stored in a file called readme located in the
 Commands you may need to solve this level
 ls, cd, cat, file, du, find
 ----------------------------------------------------------------------------------------------------------------------------
+
+##Walkthrough 
+
 1. Connect via ssh: 
 	```bash
  	ssh bandit0@bandit.labs.overthewire.org -p 2220

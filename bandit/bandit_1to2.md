@@ -22,10 +22,10 @@ Helpful Reading Material
 
 	![list files in home dir](images/level1to2.listing.files.with.dashes.inlinux.bandit1.png)
 
-As you can see the file is named with a single dash. After reading the Helpful Reading Material I was able to read the file with this command. 
+	As you can see the file is named with a single dash. After reading the Helpful Reading Material I was able to read the file with this command. 
 
 1. ` cat ./-`
 
-	![read linux file with a dash that starts in the name](level1to2.reading.dashed.file.names.inlinux.bandit1.png)
+	![read linux file with a dash that starts in the name](images/level1to2.reading.dashed.file.names.inlinux.bandit1.png)
 
 1. Password: `CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9`

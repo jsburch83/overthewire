@@ -7,7 +7,7 @@ Commands you may need to solve this level
 ls, cd, cat, file, du, find
 ----------------------------------------------------------------------------------------------------------------------------
 
-##Walkthrough 
+## Walkthrough 
 
 1. Connect via ssh: 
 	```bash

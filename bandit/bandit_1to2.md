@@ -13,7 +13,8 @@ Helpful Reading Material
 ## Walkthrough
 
 1. Connect via ssh: 
-	```ssh bandit1@bandit.labs.overthewire.org -p 2220
+	```
+	ssh bandit1@bandit.labs.overthewire.org -p 2220
 	```
 The password is: `boJ9jbbUNNfktd78OOpsqOltutMc3MY1`
 

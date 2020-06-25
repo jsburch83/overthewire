@@ -16,7 +16,7 @@ Helpful Reading Material
 	```
 	ssh bandit1@bandit.labs.overthewire.org -p 2220
 	```
-The password is: `boJ9jbbUNNfktd78OOpsqOltutMc3MY1`
+	The password is: `boJ9jbbUNNfktd78OOpsqOltutMc3MY1`
 
 1. List the files in your home directory. (ls command)
 
@@ -26,6 +26,6 @@ As you can see the file is named with a single dash. After reading the Helpful R
 
 1. ` cat ./-`
 
-
+	![read linux file with a dash that starts in the name](level1to2.reading.dashed.file.names.inlinux.bandit1.png)
 
 1. Password: `CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9`

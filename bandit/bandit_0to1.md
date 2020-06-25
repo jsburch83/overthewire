@@ -11,10 +11,9 @@ ls, cd, cat, file, du, find
  ssh bandit0@bandit.labs.overthewire.org -p 2220
 ```
 1. The password is: `bandit0` 
-1. List the files in your home directory.
-
+2. List the files in your home directory.
  
 ![list files in home directory](images/level0to1.list.files.png?raw=true)
-1. Read the readme file that contains the next level’s password. (cat command)
+3. Read the readme file that contains the next level’s password. (cat command)
 
-1. Password: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+4. Password: boJ9jbbUNNfktd78OOpsqOltutMc3MY1

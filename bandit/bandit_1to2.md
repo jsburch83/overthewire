@@ -20,7 +20,7 @@ Helpful Reading Material
 
 1. List the files in your home directory. (ls command)
 
-	![list files in home dir](images/level1to2.listing.files.with.dashes.inlinux.bandit1.png)
+	![list files in home dir](images/level1to2.listing.files.with.dashes.in.linux.bandit1.png)
 
 	As you can see the file is named with a single dash. After reading the Helpful Reading Material I was able to read the file with this command. 
 

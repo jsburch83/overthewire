@@ -6,7 +6,7 @@ The password for the next level is stored in a file called - located in the home
 Commands you may need to solve this level
 ls, cd, cat, file, du, find
 ### Helpful Reading Material
-    * (Google Search for “dashed filename” https://www.google.com/search?q=dashed+filename)
+    * [Google Search for “dashed filename”](https://www.google.com/search?q=dashed+filename)
     * Advanced Bash-scripting Guide - Chapter 3 - Special Characters 
 
 ----------------------------------------------------------------------------------------------------------------------------

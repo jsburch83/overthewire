@@ -15,6 +15,8 @@ ls, cd, cat, file, du, find
  
     ![list files in home directory](images/level0to1.list.files.png?raw=true)
 
-1. Read the readme file that contains the next level’s password. (cat command)
+1. Read the readme file that contains the next level’s password. 
 
-1. Password: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+	![using cat command read the readme file](images/level0to1.read.readme.png?raw=true)
+
+1. Password: `boJ9jbbUNNfktd78OOpsqOltutMc3MY1`

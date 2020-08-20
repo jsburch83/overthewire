@@ -12,12 +12,13 @@ ls, cd, cat, file, du, find
 ----------------------------------------------------------------------------------------------------------------------------
 
 1. Connect via ssh: 
+
 	`ssh bandit4@bandit.labs.overthewire.org -p 2220`
     The password is: **pIwrPrtPN36QITSp3EQaw936yaFoFgAB**
 
 2. Change directories to the “inhere” folder located in your home directory.
 
-    ![list files in home directory](images/level4to5.change.to.inhere.png?raw=true)
+    ![list files in home directory](images/level4to5.change.to.inhere.directory.png?raw=true)
 
 
 3. Next, I will list the contents of the directory.  

@@ -25,7 +25,7 @@ ls, cd, cat, file, du, find
 
 That’s a lot of directories/files to look through. I need to automate the search to locate the password file or I will wasting time.  I know I need to use the **find** command so I fire up the man pages and see if there is an argument for files sizes. Sure enough there is a file size command. 
 
-![](images/level5to6.find.command.by.size.of.file.png?raw=true)
+    ![](images/level5to6.find.command.by.size.of.file.png?raw=true)
 
 3. I go with: `find -size 1033c` 
 

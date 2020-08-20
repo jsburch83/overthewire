@@ -16,12 +16,12 @@ ls, cd, cat, file, du, find
 1. Connect via ssh: 
 
 	`ssh bandit5@bandit.labs.overthewire.org -p 2220`
-    
+
     The password is: **koReBOKuIDDepwhWk7jZC0RTdopnAYKh**
 
 2. Change directories to the “inhere” folder located in your home directory and list its contents.
 
-    ![list files in home directory](images/level5to6.list.inhere.contents.png?raw=true)
+    ![](images/level5to6.list.inhere.contents.png?raw=true)
 
 That’s a lot of directories/files to look through. I need to automate the search to locate the password file or I will wasting time.  I know I need to use the **find** command so I fire up the man pages and see if there is an argument for files sizes. Sure enough there is a file size command. 
 

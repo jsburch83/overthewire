@@ -19,7 +19,7 @@ The password is: **UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK**
 
 2. Change directories to the **inhere** folder located in your home directory.
 
-![list files in home directory](images/level3to4.chage.dir.inhere.png?raw=true)
+![list files in home directory](images/level3to4.change.dir.inhere.png?raw=true)
 
 This should be basic linux commands to get this password as the file is just hidden. Doing a basic ls command will not show the file. You will need to do at least a ls -a to view the file in the directory. 
 

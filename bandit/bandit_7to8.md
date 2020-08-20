@@ -23,5 +23,5 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
 3. I need to find the word **millionth** and get the password from that line. I already know the first thing I’m going to try is the grep command. 
 
     ![](images/level7to8_grep_password_in_data_file.png?raw=true)
-    
-The password for the next level is: cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+
+    The password for the next level is: **cvX2JJa4CFALtqS87jk27qwqGhBM9plV**

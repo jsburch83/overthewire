@@ -32,7 +32,7 @@ As you can see we have a bunch of files, but we need to know which one is human 
     ![list files in home directory](images/level4to5.list.dash.human.readable.file.png?raw=true)
     
 
-As you can see from the screenshot that the only human readable file is -file07
+As you can see from the screenshot that the only human readable file is **-file07**
 
 
 5. Now lets read that file. 

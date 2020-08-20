@@ -36,8 +36,8 @@ ls, cd, cat, file, du, find, grep
     The command I went with was:
 
     `cd /`
-    `find -size 33c -group bandit6  2>&1 | grep -v "Permission denied" | grep -v`
-    `"No such file or directory"`
+
+    `find -size 33c -group bandit6  2>&1 | grep -v "Permission denied" | grep -v "No such file or directory"`
 
     ![](images/level6to7.2files.to.list.png?raw=true)
 

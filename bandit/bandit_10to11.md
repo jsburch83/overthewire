@@ -21,8 +21,10 @@ Helpful Reading Material
 2. I listed everything in my home directory to find the data.txt file. 
 The goal of this is to decode a base64 file that has the password for the next level. I used the man pages to find the **-d** opiton will be used to decode the file. 
 
-3. `base64 data.txt -d data.txt`
+3. `base64 -d data.txt`
 
     ![](images/level10to11.base64.decode.data.txt.jpg?raw=true)
+
+    Level 11 password: **IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR**
 
 

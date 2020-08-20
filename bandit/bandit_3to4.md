@@ -15,7 +15,7 @@ ls, cd, cat, file, du, find
 1. Connect via ssh: 
 	`ssh bandit3@bandit.labs.overthewire.org -p 2220`
 
-The password is: **UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK**
+    The password is: **UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK**
 
 2. Change directories to the **inhere** folder located in your home directory.
 

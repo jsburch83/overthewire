@@ -22,12 +22,15 @@ ls, cd, cat, file, du, find
 
 
 3. Next, I will list the contents of the directory.  
-As you can see we have a bunch of files, but we need to know which one is human readable. So, I will go with the file command. I don’t want to call each file individual so, I will call all the files with an asterisk.   
-
-4. file ./*
-
 
     ![list files in home directory](images/level4to5.list.inhere.png?raw=true)
+
+As you can see we have a bunch of files, but we need to know which one is human readable. So, I will go with the file command. I don’t want to call each file individual so, I will call all the files with an asterisk.   
+
+4. `file ./*`
+
+    ![list files in home directory](images/level4to5.list.dash.human.readable.file.png?raw=true)
+    
 
 As you can see from the screenshot that the only human readable file is -file07
 

@@ -58,7 +58,7 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd, mkdir, cp, mv, fil
 5. I run the newly decompressed data2.bin file into the **file** command to see what type of file it is. 
     `file data2.bin`
 
-Output is:
+    Output is:
 
     ![](images/level12to13.file.info.data2.bin.jpg)
 

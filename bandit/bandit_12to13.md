@@ -50,11 +50,12 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd, mkdir, cp, mv, fil
     It works this time. Decompressing the file to **data2.bin** just like the file command output said it was originally named. 
 
     ![](images/level12to13.decompress.data.bin.jpg)
-    
+
 5. I run the newly decompressed data2.bin file into the **file** command to see what type of file it is. 
     `file data2.bin`
 
 Output is:
+
     ![](images/level12to13.file.info.data2.bin.jpg)
 
 6. I need to decompress the bzip2 file only after reading the man pages. Bzip decompresses just like gzip. You need a file extension that it will recognise. 
@@ -83,11 +84,11 @@ This gives us a file called **data5.bin**
 
 10. I now have a new unarchived **data6.bin**. The **file** command tells me that is bzip2 compressed data file. So I must first rename the file before decompressing it. 
 
-Rename it: 
-    `mv data6.bin data6.bz2`
+    Rename it: 
+        `mv data6.bin data6.bz2`
 
-Decompress it: 
-    `bzip2 -d data6.bz2`
+    Decompress it: 
+        `bzip2 -d data6.bz2`
     
 11. This gives us a tar archive with the name: **data6**. I will now untar the file. 
     `tar -xvf data6`

@@ -16,7 +16,7 @@ ssh, telnet, nc, openssl, s_client, nmap
 
 1. Connect via ssh:
 
-    `ssh bandit10@bandit.labs.overthewire.org -p 2220`
+    `ssh bandit13@bandit.labs.overthewire.org -p 2220`
     The password is: **8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL**
 
 2. Let's take a look at the private key. 

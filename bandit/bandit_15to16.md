@@ -20,12 +20,12 @@ ssh, telnet, nc, openssl, s_client, nmap
 
 2.  I started going the the man pages of the helpful commands. I had no idea what OTW wanted me to do. My main goal here is to only use man pages to solve these levels. 
 
-I was able to see the piece together this command. 
+After a few scans through some man pages I was able to piece together this command. 
 
 `openssl s_client -connect:127.0.0.1:30001`
 
-Once I was connected I put in the password obtained from the last level. 
-Paste Pass: **BfMYroe26WYalil77FoDi9qh59eK5xNr**
+Once I was connected via openssl I put in the password obtained from the last level as the goal level instructed me to do. 
+Paste Password: **BfMYroe26WYalil77FoDi9qh59eK5xNr**
 
 ![](images/openssl-sclient-connect-message-and-pass.jpg)
 

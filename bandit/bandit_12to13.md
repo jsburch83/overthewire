@@ -48,7 +48,9 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd, mkdir, cp, mv, fil
     I then try to gunzip again. 
     `gunzip -dN data.gz`
     It works this time. Decompressing the file to **data2.bin** just like the file command output said it was originally named. 
+
     ![](images/level12to13.decompress.data.bin.jpg)
+    
 5. I run the newly decompressed data2.bin file into the **file** command to see what type of file it is. 
     `file data2.bin`
 

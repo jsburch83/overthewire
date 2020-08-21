@@ -38,7 +38,7 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd, mkdir, cp, mv, fil
 
     ![](images/level12to13.file.data.bin.after.xxd.reverse.jpg)
 
-4. This gives us some really good information on the file and what to do next. I will attempt to uncompress data2.bin. 
+4. This gives us some really good information on the file. I will attempt to uncompress data2.bin. 
     I will move into the tmp file where the data.bin file is located to make it easier to work with commands. 
     `cd /tmp/bandit1`
     After reading the gzip help commands I settle on this: 

@@ -62,11 +62,16 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd, mkdir, cp, mv, fil
 
     ![](images/level12to13.file.info.data2.bin.jpg)
 
-6. I need to decompress the bzip2 file only after reading the man pages. Bzip decompresses just like gzip. You need a file extension that it will recognise. 
+6. I need to decompress the bzip2 file only after reading the man pages. Bzip decompresses just like gzip. You need a file extension that it will recognise.
+
     First rename the file:
+
     `mv data2.bin data2.bz2`
+
     Now decompress: 
+
     `bzip2 -d data2.bz21`
+    
     Output: 
     ![](images/level12to13.data2.decompress.jpg)
 

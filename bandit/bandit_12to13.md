@@ -44,10 +44,14 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd, mkdir, cp, mv, fil
     After reading the gzip help commands I settle on this: 
     `gzip -dN data.bin`
     Which gave me errors of unknown extension. I went back into the man pages on gzip and finally hit a piece where it states that gunzip **takes a list of files on its command line and replaces each file whose name ends with .gz, -gz, .z, or _z...** I take it that the gzip command doesn't like that I named the end of the file with `.bin`. I will now change that. 
+
     `mv data.bin data.gz`
-    I then try to gunzip again. 
+
+    I then try to gzip again. For some reason, I guess I was reading the man pages and saw that it had switched to gunzip instead of gzip. I don't think it matters here so much, but I ran it with gunzip. 
+
     `gunzip -dN data.gz`
-    It works this time. Decompressing the file to **data2.bin** just like the file command output said it was originally named. 
+
+    It worked this time. Decompressing the file to **data2.bin** just like the **file** command output said it was originally named. 
 
     ![](images/level12to13.decompress.data.bin.jpg)
 

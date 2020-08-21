@@ -73,16 +73,22 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd, mkdir, cp, mv, fil
     `bzip2 -d data2.bz21`
 
     Output: 
-    
+
     ![](images/level12to13.data2.decompress.jpg)
 
 7. The newly decompressed data2 is a gzip compressed data file. So, I will rename it with a gzip friendly extension and decompress. 
+
     `mv data2 data2.gz`
+
     Decompress that file:
+    
     `gzip -d data2.gz`
+
     Output: 
+
     ![](bandit/images/level12to13.data4.decompressed.to.tar.jpg)
     I now have a tar archive. 
+
 8. Just to note I forgot to add the -N on the last gzip command which would have preserved the original name of the compress file, instead it named it data2. Which is fine, because the **file** command let us know that it was decompressed to a tar archive file. 
 I will now untar that archive. 
     `tar -xf data2`

@@ -32,7 +32,7 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd, mkdir, cp, mv, fil
 
     `xxd -r data.txt /tmp/bandit1/data.bin`
 
-5. Now using the **file** command let's see what we can find out about our newly reversed binary file. 
+5. Now using the **file** command I can find out about the newly reversed binary file. 
 
     `file /tmp/bandit1/data.bin`
 
@@ -72,13 +72,13 @@ Output is:
     `gzip -d data2.gz`
     Output: 
     ![](bandit/images/level12to13.data4.decompressed.to.tar.jpg)
-    We now have a tar archive. 
+    I now have a tar archive. 
 8. Just to note I forgot to add the -N on the last gzip command which would have preserved the original name of the compress file, instead it named it data2. Which is fine, because the **file** command let us know that it was decompressed to a tar archive file. 
 I will now untar that archive. 
     `tar -xf data2`
 This gives us a file called **data5.bin**
 
-9. After running **data5.bin** through the **file** command we see that it is a tar archive as well.
+9. After running **data5.bin** through the **file** command I can see that it is a tar archive as well.
 
     `tar -xvf data5.bin`
 

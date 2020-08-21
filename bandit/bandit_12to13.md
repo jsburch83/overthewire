@@ -71,8 +71,9 @@ grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd, mkdir, cp, mv, fil
     Now decompress: 
 
     `bzip2 -d data2.bz21`
-    
+
     Output: 
+    
     ![](images/level12to13.data2.decompress.jpg)
 
 7. The newly decompressed data2 is a gzip compressed data file. So, I will rename it with a gzip friendly extension and decompress. 

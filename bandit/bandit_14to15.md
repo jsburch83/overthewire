@@ -23,13 +23,13 @@ ssh, telnet, nc, openssl, s_client, nmap
 1. Connect via ssh:
 
     `ssh bandit14@bandit.labs.overthewire.org -p 2220 -i <ident file location>`
-    The password is: **4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e** 
+    
 
 2. Using the ssh key you got from the last level login to the level14. 
 
 3. After looking at the instructions I didn't understand what they meant by submit the current level password. I then noticed the hint commands contained telnet. 
 
-I went for this command: 
+I went for this telnet command and then pasted the current password from level14: **4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e** 
 
 4. `telnet 127.0.0.1 30000`
 

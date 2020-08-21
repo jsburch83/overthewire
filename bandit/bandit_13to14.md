@@ -23,7 +23,7 @@ ssh, telnet, nc, openssl, s_client, nmap
 
     ![](images/level13to14.private.key.ssh.jpg)
 
-3. At this point I just copied the private key into a new text file with vi: 
+3. At this point I just copied the private key into a new text file with vi on my local machine: 
 
     `vi ssh_key14`
 
@@ -44,4 +44,8 @@ ssh, telnet, nc, openssl, s_client, nmap
 
     ![](images/level13to14.privatekey.worked.jpg)
 
-Just use this private key to access the next level and continue with the war games. 
+8. Now you got to go into the password file located here:  **/etc/bandit_pass/bandit14**
+
+9. The password for the next level is: **4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e**
+
+    ![](images/level13to14_read.level14pass.jpg)

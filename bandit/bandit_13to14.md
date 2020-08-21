@@ -20,6 +20,7 @@ ssh, telnet, nc, openssl, s_client, nmap
     The password is: **8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL**
 
 2. Let's take a look at the private key. 
+
     ![](images/level13to14.private.key.ssh.jpg)
 
 3. At this point I just copied the private key into a new text file with vi: 

@@ -85,10 +85,10 @@ This gives us a file called **data5.bin**
 10. I now have a new unarchived **data6.bin**. The **file** command tells me that is bzip2 compressed data file. So I must first rename the file before decompressing it. 
 
     Rename it: 
-        `mv data6.bin data6.bz2`
+    `mv data6.bin data6.bz2`
 
     Decompress it: 
-        `bzip2 -d data6.bz2`
+    `bzip2 -d data6.bz2`
     
 11. This gives us a tar archive with the name: **data6**. I will now untar the file. 
     `tar -xvf data6`

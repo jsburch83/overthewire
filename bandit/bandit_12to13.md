@@ -80,10 +80,13 @@ This gives us a file called **data5.bin**
     `tar -xvf data5.bin`
 
 10. I now have a new unarchived **data6.bin**. The **file** command tells me that is bzip2 compressed data file. So I must first rename the file before decompressing it. 
+
 Rename it: 
     `mv data6.bin data6.bz2`
+
 Decompress it: 
     `bzip2 -d data6.bz2`
+    
 11. This gives us a tar archive with the name: **data6**. I will now untar the file. 
     `tar -xvf data6`
 This gives me a **data8.bin** file which is a gzip compressed data file originally named data9.bin according to the **file** command output. 
@@ -93,13 +96,13 @@ This gives me a **data8.bin** file which is a gzip compressed data file original
 Decompress:
     `gzip -dN data8.gz`
 13. I now have a decompressed **data9.bin** which is a ASCII text file. 
+
     ![](images/level12to13.file.data9.bin.jpg)
 
 14. Read data9.bin
     `cat data9.bin`
 
-
-    ![](mages/level12to13.pass.jpg?raw=true)
+    ![](images/level12to13.pass.jpg?raw=true)
 
 The password for the next level is: **8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL**
 

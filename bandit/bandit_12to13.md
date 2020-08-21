@@ -97,7 +97,8 @@ Decompress:
 
 14. Read data9.bin
     `cat data9.bin`
-    ![](mages/level12to13.pass.jpg)
+
+    ![](mages/level12to13.pass.jpg?raw=true)
 
 The password for the next level is: **8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL**
 

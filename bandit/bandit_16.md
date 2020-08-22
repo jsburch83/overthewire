@@ -28,8 +28,9 @@ ssh, telnet, nc, openssl, s_client, nmap
 3. The first port shows no TLS when I connect with openssl s_client. 
 4. The second port shows TLS1.2 so I paste the password into the terminal and it returns itself. 
 5. The third open port shows no TLS on that port.
-6. The fourth open port shows TLS 1.2. When I past the password it returns with a private key.
-`
+6. The fourth open port shows TLS 1.2. When I paste the password it returns with a private key.
+
+
 -----BEGIN RSA PRIVATE KEY-----
 MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ
 imZzeyGC0gtZPGujUSxiJSWI/oTqexh+cAMTSMlOJf7+BrJObArnxd9Y7YT2bRPQ

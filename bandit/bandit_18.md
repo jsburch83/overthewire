@@ -19,5 +19,6 @@ ssh, ls, cat
 `ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme`
 
 3. This gave the next level's password: 
+**IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x**
 
     ![](images/level18_cat_and_ls_readme_pass.jpg)

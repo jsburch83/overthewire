@@ -12,7 +12,7 @@ cat, grep, ls, diff
 
 ------------------------------------------------------------------------------
 
-1. While connected to level17 from the previous level continue working through the levels. 
+1. While connected to level17 (with private key) from the previous level I continue with level17. 
 
 2. Reading my man pages on the diff command first. I first try on side by side look of the two files and I spot the different lines. 
 
@@ -20,13 +20,13 @@ cat, grep, ls, diff
 
 ![](images/level17_diff_side_by_side.jpg)
 
-3. I want to get less on the screen so I run the command with no options. 
+3. I want to get less data on the screen. I run the command with no options. 
 
 `diff passwords.old passwords.new`
 
 ![](images/level17-diff-standard-out.jpg)
 
-4. So, the different line in the passwords.new file is:
+4. The different line in the **passwords.new** file is:
 **kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd**
 
 5. I will use that as my password to level18. 

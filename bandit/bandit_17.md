@@ -1,11 +1,12 @@
-
-Bandit Level 17 → Level 18
-Level Goal
+# OverTheWire
+## Bandit Level 17 → Level 18
+## Level Goal
 
 There are 2 files in the homedirectory: passwords.old and passwords.new. The password for the next level is in passwords.new and is the only line that has been changed between passwords.old and passwords.new
 
 NOTE: if you have solved this level and see ‘Byebye!’ when trying to log into bandit18, this is related to the next level, bandit19
-Commands you may need to solve this level
+
+## Commands you may need to solve this level
 
 cat, grep, ls, diff
 
@@ -23,14 +24,14 @@ cat, grep, ls, diff
 
 `diff passwords.old passwords.new`
 
-![](bandit/images/level17-diff-standard-out.jpg)
+![](images/level17-diff-standard-out.jpg)
 
 4. So, the different line in the passwords.new file is:
 **kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd**
 
 5. We will use that as our password to level18. 
 
-6. When connect to level18 it will connect then display "ByeBye !" and disconnect. This is all part of the level18. 
+6. When connect to level18 it will connect then display "ByeBye !" and disconnect. This is all part of the level18 and 19. 
 
 
 

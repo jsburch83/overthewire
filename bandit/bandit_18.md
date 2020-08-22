@@ -20,4 +20,4 @@ ssh, ls, cat
 
 3. This gave the next level's password: 
 
-    !{}(images/level18_cat_and_ls_readme_pass.jpg)
+    ![](images/level18_cat_and_ls_readme_pass.jpg)

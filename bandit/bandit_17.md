@@ -29,7 +29,7 @@ cat, grep, ls, diff
 4. So, the different line in the passwords.new file is:
 **kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd**
 
-5. We will use that as our password to level18. 
+5. I will use that as my password to level18. 
 
 6. When connect to level18 it will connect then display "ByeBye !" and disconnect. This is all part of the level18 and 19. 
 
